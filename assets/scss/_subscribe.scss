@@ -10,6 +10,15 @@
         }
         & .textSide{
             & .inputbutton{
+                & .subsBtn{
+                    transition: all .3s ease-in-out;
+                    &:hover{
+                        transform: scale(0.9);
+                        background-color: $theme1 !important;
+                        color: $black !important;
+                        font-weight: 700;
+                    }
+                }
             }
             & .member{
                 opacity: 1;
