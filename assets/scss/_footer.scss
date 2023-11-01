@@ -38,10 +38,7 @@
                             height: 40px;
                             width: 40px;
                         }
-                        @include lg{
-                            height: 45px;
-                            width: 45px;
-                        }
+                        
                     }
                     & .faceBook{
                         transition: all .3s ease-in-out;
@@ -58,6 +55,7 @@
                     &:hover{
                         & .socialImg{
                             border: transparent;
+                            border-radius: 15%;
                         }
                         & .faceBook{
                             background-color: #3b5998;
@@ -88,7 +86,7 @@
             font-size: 20px;
             color: $white;
             font-weight: 700;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             @include md{
                 margin-bottom: 40px;
             }
